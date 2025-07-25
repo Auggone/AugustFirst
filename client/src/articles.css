@@ -1,7 +1,10 @@
 @font-face {
   font-family: titleFont;
-  src: url("C:\Users\August\Desktop\website\fonts\romanabt_roman.otf");
+  src: url("./fonts/romanabt_roman.otf") format("opentype");
 }
+
+
+
 
 
 html, body {
