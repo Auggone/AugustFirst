@@ -1,0 +1,118 @@
+@font-face {
+  font-family: titleFont;
+  src: url("C:\Users\August\Desktop\website\fonts\romanabt_roman.otf");
+}
+
+
+img{
+  max-width: 100%;
+  padding-top: 50px;
+}
+
+main{
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+header{
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+header a {
+  
+  font-family: titleFont;
+  text-decoration: none;
+  color: inherit;
+  margin: 0 10px;
+}
+
+header a.logo{
+  
+  font-family: titleFont;
+  font-weight: bold;
+  font-size: 90px;
+  border-bottom: 2px solid black;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+header nav{
+  font-family: titleFont;
+  padding-top: 20px;
+}
+
+.subtitle{
+  font-family: titleFont;
+  letter-spacing: 1px;
+}
+
+.cover{
+  position: relative;
+  top: 3vh;
+}
+
+.cover a{
+  text-decoration: none;
+  font-size: xx-large;
+  color: black;
+  font-family: titleFont;
+}
+
+.subtitle{
+  
+  font-size: medium;
+  font-style: bold;
+
+}
+
+
+div.entry{
+  position:relative;
+  top: 100vh;
+  display: grid;
+  grid-template-columns: 0.9fr 1.2fr; 
+  gap: 20px;
+  border: 1px solid black;
+  padding: 10px;
+  
+}
+
+
+
+div.entry img{
+  height: auto;
+}
+
+
+div.Date{
+  position: relative;
+  top: 66px;
+}
+
+
+div.entry div.texts h2{
+  margin: 0px;
+  padding-top: 50px;
+  font-size: 1.5rem;
+}
+
+
+form.login, form.register{
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+
+input{
+  display: block;
+  margin: 5px;
+  max-width: 100%;
+  padding: 5px;
+  border: 10px grey;
+  background-color: white;
+}
+
+
+
